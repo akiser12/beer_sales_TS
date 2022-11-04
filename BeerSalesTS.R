@@ -1,6 +1,6 @@
 # Import Beer Data
 library(readxl)
-BeerData <- read_excel("~/Downloads/AnadoluEfesData - Copy (2).xlsx", skip = 2)
+BeerData <- read_excel("~/Desktop/beer_sales_TS/AnadoluEfesData.xlsx", skip = 2)
 
 # Set Year as factor variable
 BeerData$Year = as.factor(BeerData$Year)
